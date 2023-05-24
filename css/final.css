@@ -1,0 +1,82 @@
+body {
+			background: linear-gradient(to bottom, #4b0082, #0000ff);
+			font-family: Arial, sans-serif;
+			color: white;
+			background-attachment: fixed;
+		}
+		h1, h2, h3 {
+			text-align: center;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		.gym {
+			margin-bottom: 20px;
+			padding: 20px;
+			background-color: #ffffff;
+			border-radius: 5px;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		}
+		.gym h2 {
+			margin-top: 0;
+		}
+		.gym img {
+			display: block;
+			margin: 0 auto;
+			max-width: 100%;
+		}
+		a {
+			color: white;
+			text-decoration: underline;
+		}
+		
+		.center {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			width: 50%;
+		}
+		
+		img {
+			display: block;
+			margin: auto;
+			max-width: 50%
+		}
+		p {
+			text-align: center;
+		}
+		ul {
+			text-align: center;
+			list-style: none;
+		}
+		
+		@media only screen and (max-width: 768px) {
+			body {
+				background: linear-gradient( green, black);
+			}
+		}
+		#container {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	nav {
+	font-size: 1em;
+	font-weight: bold;
+	text-align: center;
+}
+nav ul { padding: 0;
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+}
+nav li { background-color: #000000;
+		border-radius: 1em;
+		list-style-type: none;
+		margin: 0.3em;
+		padding: 0.4em;
+}
+nav li a { color: #ffffff;
+		text-decoration: none;
+}
